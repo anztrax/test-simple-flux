@@ -1,0 +1,8 @@
+/** @jsx React.DOM */
+var React = require("react");
+var TodoApp = require("./components/TodoApp");
+
+React.render(
+  <TodoApp />,
+  document.getElementById('mainCon')
+);
